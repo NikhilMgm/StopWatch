@@ -1,0 +1,60 @@
+body{
+	background-image: url(Images/clock1.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+h1{
+	position: absolute;
+	top: auto;
+	left: 13%;
+	text-align: center;
+	margin: 40px auto;
+	font-size: 7rem;
+	font-family: 'VT323', monospace;
+	letter-spacing: 6px;
+	color: #4C4C6D;
+}
+
+.container{
+	height: 60vh;
+	width: 60vw;
+	position: absolute;
+	top: 35%;
+	left: 20%;
+	text-align: center;
+	border-radius: 5%;
+	padding: 10px auto;
+}
+
+h2{
+	font-family: 'Handjet', cursive;
+	font-size: 6rem;
+	color: #1B9C85;
+	letter-spacing: 5px;
+	margin: 30px auto;
+}
+
+.buttons{
+	margin: 5px;
+	background-image: inherit;
+}
+
+
+.buttons i{
+	background-image: inherit;
+	margin: auto 40px;
+	font-size: 3rem;
+}
+
+.buttons i:nth-child(2){
+	font-size: 4rem;
+s
+}
+
+.buttons i:hover{
+	box-shadow: 0 0 30px 10px whitesmoke;
+	border-radius: 50%;
+}
+
